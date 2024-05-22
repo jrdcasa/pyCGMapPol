@@ -1,0 +1,5 @@
+nmols: 3
+#ich idx-head idx-tail (indexes start at 0)
+0 1 357
+1 366 722
+2 731 1087

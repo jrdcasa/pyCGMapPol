@@ -1,0 +1,297 @@
+<cg>
+
+  <bonded>
+      <name>B-TA</name>
+      <min>0.1</min>
+      <max>0.6</max>
+      <step>0.02</step>
+      <inverse>
+          <!-- Target distribution -->
+          <target>./B-TA.dist.tgt</target>
+      </inverse>
+  </bonded>
+
+  <bonded>
+      <name>B-B</name>
+      <min>0.1</min>
+      <max>0.6</max>
+      <step>0.02</step>
+      <inverse>
+          <!-- Target distribution -->
+          <target>./B-B.dist.tgt</target>
+      </inverse>
+  </bonded>
+
+  <bonded>
+      <name>P-PA</name>
+      <min>0.1</min>
+      <max>0.6</max>
+      <step>0.02</step>
+      <inverse>
+          <!-- Target distribution -->
+          <target>./P-PA.dist.tgt</target>
+      </inverse>
+  </bonded>
+
+  <bonded>
+      <name>P-P</name>
+      <min>0.1</min>
+      <max>0.6</max>
+      <step>0.02</step>
+      <inverse>
+          <!-- Target distribution -->
+          <target>./P-P.dist.tgt</target>
+      </inverse>
+  </bonded>
+
+  <bonded>
+      <name>B-B-TA</name>
+      <min>0.0</min>
+      <max>3.1</max>
+      <step>0.0348</step>
+      <inverse>
+          <!-- Target distribution -->
+          <target>./B-B-TA.dist.tgt</target>
+      </inverse>
+  </bonded>
+
+  <bonded>
+      <name>B-B-B</name>
+      <min>0.0</min>
+      <max>3.1</max>
+      <step>0.0348</step>
+      <inverse>
+          <!-- Target distribution -->
+          <target>./B-B-B.dist.tgt</target>
+      </inverse>
+  </bonded>
+
+  <bonded>
+      <name>P-P-PA</name>
+      <min>0.0</min>
+      <max>3.1</max>
+      <step>0.0348</step>
+      <inverse>
+          <!-- Target distribution -->
+          <target>./P-P-PA.dist.tgt</target>
+      </inverse>
+  </bonded>
+
+  <bonded>
+      <name>P-P-P</name>
+      <min>0.0</min>
+      <max>3.1</max>
+      <step>0.0348</step>
+      <inverse>
+          <!-- Target distribution -->
+          <target>./P-P-P.dist.tgt</target>
+      </inverse>
+  </bonded>
+
+  <bonded>
+      <name>B-B-B-TA</name>
+      <min>-3.1</min>
+      <max>3.1</max>
+      <step>0.08</step>
+      <inverse>
+          <!-- Target distribution -->
+          <target>./B-B-B-TA.dist.tgt</target>
+      </inverse>
+  </bonded>
+
+  <bonded>
+      <name>B-B-B-B</name>
+      <min>-3.1</min>
+      <max>3.1</max>
+      <step>0.08</step>
+      <inverse>
+          <!-- Target distribution -->
+          <target>./B-B-B-B.dist.tgt</target>
+      </inverse>
+  </bonded>
+
+  <bonded>
+      <name>P-P-P-PA</name>
+      <min>-3.1</min>
+      <max>3.1</max>
+      <step>0.08</step>
+      <inverse>
+          <!-- Target distribution -->
+          <target>./P-P-P-PA.dist.tgt</target>
+      </inverse>
+  </bonded>
+
+  <bonded>
+      <name>P-P-P-P</name>
+      <min>-3.1</min>
+      <max>3.1</max>
+      <step>0.08</step>
+      <inverse>
+          <!-- Target distribution -->
+          <target>./P-P-P-P.dist.tgt</target>
+      </inverse>
+  </bonded>
+
+  <non-bonded>
+      <!-- name of the interaction -->
+      <name>TATA</name>
+      <!-- types involved in this interaction -->
+      <type1>TA</type1>
+      <type2>TA</type2>
+      <!-- dimension + grid spacing of tables for calculations -->
+      <min>0.0</min>
+      <max>2.0</max>
+      <step>0.01</step>
+      <inverse>
+          <target>./TATA.dist.tgt </target>
+      </inverse>
+  </non-bonded>
+
+  <non-bonded>
+      <!-- name of the interaction -->
+      <name>TAB</name>
+      <!-- types involved in this interaction -->
+      <type1>TA</type1>
+      <type2>B</type2>
+      <!-- dimension + grid spacing of tables for calculations -->
+      <min>0.0</min>
+      <max>2.0</max>
+      <step>0.01</step>
+      <inverse>
+          <target>./TAB.dist.tgt </target>
+      </inverse>
+  </non-bonded>
+
+  <non-bonded>
+      <!-- name of the interaction -->
+      <name>TAPA</name>
+      <!-- types involved in this interaction -->
+      <type1>TA</type1>
+      <type2>PA</type2>
+      <!-- dimension + grid spacing of tables for calculations -->
+      <min>0.0</min>
+      <max>2.0</max>
+      <step>0.01</step>
+      <inverse>
+          <target>./TAPA.dist.tgt </target>
+      </inverse>
+  </non-bonded>
+
+  <non-bonded>
+      <!-- name of the interaction -->
+      <name>TAP</name>
+      <!-- types involved in this interaction -->
+      <type1>TA</type1>
+      <type2>P</type2>
+      <!-- dimension + grid spacing of tables for calculations -->
+      <min>0.0</min>
+      <max>2.0</max>
+      <step>0.01</step>
+      <inverse>
+          <target>./TAP.dist.tgt </target>
+      </inverse>
+  </non-bonded>
+
+  <non-bonded>
+      <!-- name of the interaction -->
+      <name>BB</name>
+      <!-- types involved in this interaction -->
+      <type1>B</type1>
+      <type2>B</type2>
+      <!-- dimension + grid spacing of tables for calculations -->
+      <min>0.0</min>
+      <max>2.0</max>
+      <step>0.01</step>
+      <inverse>
+          <target>./BB.dist.tgt </target>
+      </inverse>
+  </non-bonded>
+
+  <non-bonded>
+      <!-- name of the interaction -->
+      <name>BPA</name>
+      <!-- types involved in this interaction -->
+      <type1>B</type1>
+      <type2>PA</type2>
+      <!-- dimension + grid spacing of tables for calculations -->
+      <min>0.0</min>
+      <max>2.0</max>
+      <step>0.01</step>
+      <inverse>
+          <target>./BPA.dist.tgt </target>
+      </inverse>
+  </non-bonded>
+
+  <non-bonded>
+      <!-- name of the interaction -->
+      <name>BP</name>
+      <!-- types involved in this interaction -->
+      <type1>B</type1>
+      <type2>P</type2>
+      <!-- dimension + grid spacing of tables for calculations -->
+      <min>0.0</min>
+      <max>2.0</max>
+      <step>0.01</step>
+      <inverse>
+          <target>./BP.dist.tgt </target>
+      </inverse>
+  </non-bonded>
+
+  <non-bonded>
+      <!-- name of the interaction -->
+      <name>PAPA</name>
+      <!-- types involved in this interaction -->
+      <type1>PA</type1>
+      <type2>PA</type2>
+      <!-- dimension + grid spacing of tables for calculations -->
+      <min>0.0</min>
+      <max>2.0</max>
+      <step>0.01</step>
+      <inverse>
+          <target>./PAPA.dist.tgt </target>
+      </inverse>
+  </non-bonded>
+
+  <non-bonded>
+      <!-- name of the interaction -->
+      <name>PAP</name>
+      <!-- types involved in this interaction -->
+      <type1>PA</type1>
+      <type2>P</type2>
+      <!-- dimension + grid spacing of tables for calculations -->
+      <min>0.0</min>
+      <max>2.0</max>
+      <step>0.01</step>
+      <inverse>
+          <target>./PAP.dist.tgt </target>
+      </inverse>
+  </non-bonded>
+
+  <non-bonded>
+      <!-- name of the interaction -->
+      <name>PP</name>
+      <!-- types involved in this interaction -->
+      <type1>P</type1>
+      <type2>P</type2>
+      <!-- dimension + grid spacing of tables for calculations -->
+      <min>0.0</min>
+      <max>2.0</max>
+      <step>0.01</step>
+      <inverse>
+          <target>./PP.dist.tgt </target>
+      </inverse>
+  </non-bonded>
+
+  <inverse>
+       <scriptpath>./</scriptpath>
+      <!-- 500 * 0.00831451 gromacs units -->
+      <kBT>4.157255</kBT>
+      <dist_min>0.001</dist_min>
+      <program>gromacs</program>
+      <gromacs>
+          <gmxrc> #PATH_TO_GMXRC# </gmxrc>
+      </gromacs>
+  </inverse>
+
+</cg>
+

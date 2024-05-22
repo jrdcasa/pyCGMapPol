@@ -1,0 +1,27 @@
+
+		 Starting installation!!!! at 07/10/2022 17:16:18
+
+
+		 SYS PATH
+/home/jramos/Programacion/GITHUB_REPO_DIR/pyCGMapPol
+/usr/lib/python38.zip
+/usr/lib/python3.8
+/usr/lib/python3.8/lib-dynload
+/home/jramos/Programacion/sandboxes/sandbox_common/lib/python3.8/site-packages
+/home/jramos/Programacion/sandboxes/sandbox_common/lib/python3.8/site-packages/topology-1.0.0-py3.8-linux-x86_64.egg
+/home/jramos/Programacion/sandboxes/sandbox_common/lib/python3.8/site-packages/replicate_polymer-0.0.0-py3.8-linux-x86_64.egg
+/home/jramos/Programacion/sandboxes/sandbox_common/lib/python3.8/site-packages/polyanagro-1.1-py3.8-linux-x86_64.egg
+/home/jramos/Programacion/sandboxes/sandbox_common/lib/python3.8/site-packages/pyCGMapPol-0.0.0-py3.8.egg
+
+		 INSTALLING PIP PACKAGES (07/10/2022 17:16:18)
+
+pyCGMapPol: ** 07/10/2022 17:16:18: Installing numpy
+pyCGMapPol: ** 07/10/2022 17:16:18: Installing lxml==4.6.3
+
+		 RUNNING SETUP FROM SETUPTOOLS 07/10/2022 17:16:18
+
+
+
+		 Installation Done!!!! at 07/10/2022 17:16:19
+
+

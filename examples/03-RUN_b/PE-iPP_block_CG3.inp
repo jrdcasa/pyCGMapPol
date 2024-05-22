@@ -1,0 +1,38 @@
+<GENERAL>
+# 1. Title of the system
+# 2. Number of different molecule kinds
+# 3. Gro AA filename
+# 4. Top AA filename
+iblock
+1
+./03-PREPROCESS_GROFILES/conf_label.gro
+./03-PREPROCESS_GROFILES/conf_label.top
+</GENERAL>
+
+<NAMES>
+system1 iblock
+</NAMES>
+
+<MAPS>
+# Number_of_aa_atoms, cg_beads and number_of_chains
+80 10 2 
+</MAPS>
+
+<BEADS>
+#ikind number_of_cg_types
+0 3 
+#name_of_the_bead weigths_aa map_aa_cg idx_cg_rep
+TA 3 1.0 1.0 1.0 0
+B  3 1.0 1.0 1.0 1-4
+P  4 0.5 1.0 1.0 0.5  1-49
+PB 4 0.5 1.0 1.0 1.0  50
+</BEADS>
+
+# AA Indexes of the first bead of each type
+<INDEXES>
+0 3
+PA 0 1 2 3
+P  3 4 5 6
+PB 150 151 152 153
+</INDEXES>
+

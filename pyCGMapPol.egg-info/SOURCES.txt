@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+pyCGMapPol/__init__.py
+pyCGMapPol/pyCGMapPol.py
+pyCGMapPol.egg-info/PKG-INFO
+pyCGMapPol.egg-info/SOURCES.txt
+pyCGMapPol.egg-info/dependency_links.txt
+pyCGMapPol.egg-info/entry_points.txt
+pyCGMapPol.egg-info/top_level.txt
+pyCGMapPol_lib/CGSystemClass.py
+pyCGMapPol_lib/__init__.py
+pyCGMapPol_lib/logger.py
+pyCGMapPol_lib/parse_arguments.py

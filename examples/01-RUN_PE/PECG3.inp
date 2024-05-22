@@ -1,0 +1,38 @@
+<GENERAL>
+# 1. Title of the system
+# 2. Number of different molecule kinds
+# 3. Gro AA filename
+# 4. Top AA filename
+PECG3
+1
+./01-PREPROCESS_GROFILES/conf_label.gro  
+./01-PREPROCESS_GROFILES/conf_label.top
+</GENERAL>
+
+<NAMES>
+system1 PECG3
+</NAMES>
+
+<MAPS>
+# Number_of_aa_atoms, cg_beads and number_of_chains
+102 34 40 
+</MAPS>
+
+<BEADS>
+#ikind number_of_cg_types
+0 3 
+#name_of_the_bead weigths_aa map_aa_cg idx_cg_rep
+TA 3 1 1 1 0 
+B  3 1 1 1 1-32
+TA 3 1 1 1 33 
+</BEADS>
+
+# AA Indexes of the first bead of each type
+<INDEXES>
+0 3 
+TA 0 1 2
+B  3 4 5
+TA 99 100 101
+</INDEXES>
+
+    

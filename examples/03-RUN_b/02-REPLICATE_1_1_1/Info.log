@@ -1,0 +1,85 @@
+
+    ***********************************************************************
+              Replicate a molecule or polymer chain (ReMoPo)
+              ----------------------------------------------
+
+                                Version 3.0
+
+                              Dr. Javier Ramos
+                      Macromolecular Physics Department
+                Instituto de Estructura de la Materia (IEM-CSIC)
+                               Madrid (Spain)
+
+        ReMoPo is an open-source python library to quickly replicate a molecule
+        from a pdb file containing the seed molecule. After that, the script assigns
+        the force field parameters using the foyer library (https://mosdef.org/)
+        This program generates GROMACS and LAMMPS files to run simulations.
+
+        This software is distributed under the terms of the
+        GNU General Public License v3.0 (GNU GPLv3). A copy of
+        the license (LICENSE.txt) is included with this distribution.
+
+    ***********************************************************************
+        
+		Start Job at 16-09-2022 15:55:08 ============
+
+		Command line: 
+			python replicate_polymer -p ../01-PREPARE/PE10-iPP10m_block_2Ch_residues.pdb --images 1 1 1 --noh -f /home/jramos/Programacion/GITHUB_REPO_DIR/replicate_polymer_topology/forcefields/trappe-ua_PEToxvaerd.xml --impropers ../01-PREPARE/impropers.ndx
+			         or
+			replicate_polymer -p ../01-PREPARE/PE10-iPP10m_block_2Ch_residues.pdb --images 1 1 1 --noh -f /home/jramos/Programacion/GITHUB_REPO_DIR/replicate_polymer_topology/forcefields/trappe-ua_PEToxvaerd.xml --impropers ../01-PREPARE/impropers.ndx
+
+
+		Check resname and connect in the input file. (../01-PREPARE/PE10-iPP10m_block_2Ch_residues.pdb)... (16-09-2022 15:55:08)
+
+		Removing hydrogens in the pdb file of the seed molecules.(../01-PREPARE/PE10-iPP10m_block_2Ch_residues.pdb)... (16-09-2022 15:55:08)
+		Replicating and typing molecule (16-09-2022 15:55:08)
+		********************************************************
+		Loading seed structure from PE10-iPP10m_block_2Ch_residues_noH.pdb (16-09-2022 15:55:08)
+		Applying force field to the seed molecules PE10-iPP10m_block_2Ch_residues_noH.pdb (16-09-2022 15:55:08)
+		 Checking bonds    ... (verbose: False) (16-09-2022 15:55:08).
+		 End checking bonds ... (verbose: False) (16-09-2022 15:55:08).
+		 Checking angles    ... (verbose: False) (16-09-2022 15:55:08).
+		 End checking angles ... (verbose: False) (16-09-2022 15:55:08).
+		 Checking dihedrals    ... (verbose: False) (16-09-2022 15:55:08).
+		 End dihedrals angles ... (verbose: False) (16-09-2022 15:55:08).
+		------------------------------------------------------------------------------------
+		WARN: Parameters have not been assigned to all impropers.
+		Total system impropers: 10, Parameterized impropers: 0.
+ 		Note that if your system contains torsions of Ryckaert-Bellemans functional form,
+		all of these torsions are processed as propers.
+		This warn can be ignored if you are sure that impropers are not needed!!!!!
+		------------------------------------------------------------------------------------
+
+		Replicating molecules PE10-iPP10m_block_2Ch_residues_noH.pdb (16-09-2022 15:55:08)
+
+		Replicate a molecule or polymer chain (16-09-2022 15:55:08)
+		***************************************************************
+		Input file                  : PE10-iPP10m_block_2Ch_residues_noH.pdb
+		Number of molecules in cell : 2
+		Number of chains in cell    : 1
+		Number of bonds in cell     : 50
+		Number of residues in cell  : 20
+		Number of atoms in cell     : 52
+		Simulation box dimension    : 1.5953 1.5953 1.5953 nm
+		Simulation box angles       : 90.00 90.00 90.00 degrees
+		Replicate the molecule 1x1x1 times
+		***************************************************************
+
+		Molecule replicated info (16-09-2022 15:55:08)
+		*************************************************
+		Number of molecules in cell : 2
+		Number of chains in cell    : 1
+		Number of residues in cell  : 20
+		Number of atoms in cell     : 52
+		Simulation box dimension    : 1.5953 1.5953 1.5953 nm
+		Simulation box angles       : 90.00 90.00 90.00 degrees
+		Mass density                : 0.2554 g/cm3
+		*************************************************
+
+
+		Removing TER labels in the pdb file of the seed molecules.(./PE10-iPP10m_block_2Ch_residues_noH_replicate.pdb)... (16-09-2022 15:55:08)
+		Inserting impropers in the topology file (16-09-2022 15:55:08)
+			Inserting impropers from ../01-PREPARE/impropers.ndx ...
+		Job  Done at 16-09-2022 15:55:08 ============
+
+		Total time: 0.14 seconds

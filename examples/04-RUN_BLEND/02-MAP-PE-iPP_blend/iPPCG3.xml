@@ -1,0 +1,503 @@
+<cg_molecule>
+  <name>iPPCG3</name>
+  <ident>system2</ident>
+  <topology>
+   <cg_beads>
+     <cg_bead>
+       <name>PA1</name>
+       <type>PA</type>
+       <mapping>PA</mapping>
+       <beads>1:PPS:B0001 1:PPS:B0002 1:PPS:B0003 2:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P2</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>2:PPE:B0001 2:PPE:B0002 2:PPE:B0003 3:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P3</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>3:PPE:B0001 3:PPE:B0002 3:PPE:B0003 4:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P4</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>4:PPE:B0001 4:PPE:B0002 4:PPE:B0003 5:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P5</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>5:PPE:B0001 5:PPE:B0002 5:PPE:B0003 6:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P6</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>6:PPE:B0001 6:PPE:B0002 6:PPE:B0003 7:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P7</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>7:PPE:B0001 7:PPE:B0002 7:PPE:B0003 8:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P8</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>8:PPE:B0001 8:PPE:B0002 8:PPE:B0003 9:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P9</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>9:PPE:B0001 9:PPE:B0002 9:PPE:B0003 10:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P10</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>10:PPE:B0001 10:PPE:B0002 10:PPE:B0003 11:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P11</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>11:PPE:B0001 11:PPE:B0002 11:PPE:B0003 12:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P12</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>12:PPE:B0001 12:PPE:B0002 12:PPE:B0003 13:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P13</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>13:PPE:B0001 13:PPE:B0002 13:PPE:B0003 14:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P14</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>14:PPE:B0001 14:PPE:B0002 14:PPE:B0003 15:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P15</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>15:PPE:B0001 15:PPE:B0002 15:PPE:B0003 16:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P16</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>16:PPE:B0001 16:PPE:B0002 16:PPE:B0003 17:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P17</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>17:PPE:B0001 17:PPE:B0002 17:PPE:B0003 18:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P18</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>18:PPE:B0001 18:PPE:B0002 18:PPE:B0003 19:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P19</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>19:PPE:B0001 19:PPE:B0002 19:PPE:B0003 20:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P20</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>20:PPE:B0001 20:PPE:B0002 20:PPE:B0003 21:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P21</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>21:PPE:B0001 21:PPE:B0002 21:PPE:B0003 22:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P22</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>22:PPE:B0001 22:PPE:B0002 22:PPE:B0003 23:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P23</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>23:PPE:B0001 23:PPE:B0002 23:PPE:B0003 24:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P24</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>24:PPE:B0001 24:PPE:B0002 24:PPE:B0003 25:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P25</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>25:PPE:B0001 25:PPE:B0002 25:PPE:B0003 26:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P26</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>26:PPE:B0001 26:PPE:B0002 26:PPE:B0003 27:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P27</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>27:PPE:B0001 27:PPE:B0002 27:PPE:B0003 28:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P28</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>28:PPE:B0001 28:PPE:B0002 28:PPE:B0003 29:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P29</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>29:PPE:B0001 29:PPE:B0002 29:PPE:B0003 30:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P30</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>30:PPE:B0001 30:PPE:B0002 30:PPE:B0003 31:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P31</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>31:PPE:B0001 31:PPE:B0002 31:PPE:B0003 32:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P32</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>32:PPE:B0001 32:PPE:B0002 32:PPE:B0003 33:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P33</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>33:PPE:B0001 33:PPE:B0002 33:PPE:B0003 34:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P34</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>34:PPE:B0001 34:PPE:B0002 34:PPE:B0003 35:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P35</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>35:PPE:B0001 35:PPE:B0002 35:PPE:B0003 36:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P36</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>36:PPE:B0001 36:PPE:B0002 36:PPE:B0003 37:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P37</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>37:PPE:B0001 37:PPE:B0002 37:PPE:B0003 38:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P38</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>38:PPE:B0001 38:PPE:B0002 38:PPE:B0003 39:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P39</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>39:PPE:B0001 39:PPE:B0002 39:PPE:B0003 40:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P40</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>40:PPE:B0001 40:PPE:B0002 40:PPE:B0003 41:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P41</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>41:PPE:B0001 41:PPE:B0002 41:PPE:B0003 42:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P42</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>42:PPE:B0001 42:PPE:B0002 42:PPE:B0003 43:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P43</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>43:PPE:B0001 43:PPE:B0002 43:PPE:B0003 44:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P44</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>44:PPE:B0001 44:PPE:B0002 44:PPE:B0003 45:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P45</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>45:PPE:B0001 45:PPE:B0002 45:PPE:B0003 46:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P46</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>46:PPE:B0001 46:PPE:B0002 46:PPE:B0003 47:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P47</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>47:PPE:B0001 47:PPE:B0002 47:PPE:B0003 48:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P48</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>48:PPE:B0001 48:PPE:B0002 48:PPE:B0003 49:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P49</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>49:PPE:B0001 49:PPE:B0002 49:PPE:B0003 50:PPE:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>P50</name>
+       <type>P</type>
+       <mapping>P</mapping>
+       <beads>50:PPE:B0001 50:PPE:B0002 50:PPE:B0003 51:PPT:B0001 </beads>
+     </cg_bead>
+     <cg_bead>
+       <name>PA51</name>
+       <type>PA</type>
+       <mapping>PA</mapping>
+       <beads>51:PPT:B0001 51:PPT:B0002 51:PPT:B0003 51:PPT:B0004 </beads>
+     </cg_bead>
+   </cg_beads>
+   <cg_bonded>
+     <bond>
+       <name>P-PA</name>
+     <beads>
+       P2 PA1
+       P50 PA51
+     </beads>
+     </bond>
+     <bond>
+       <name>P-P</name>
+     <beads>
+       P2 P3
+       P3 P4
+       P4 P5
+       P5 P6
+       P6 P7
+       P7 P8
+       P8 P9
+       P10 P9
+       P10 P11
+       P11 P12
+       P12 P13
+       P13 P14
+       P14 P15
+       P15 P16
+       P16 P17
+       P17 P18
+       P18 P19
+       P19 P20
+       P20 P21
+       P21 P22
+       P22 P23
+       P23 P24
+       P24 P25
+       P25 P26
+       P26 P27
+       P27 P28
+       P28 P29
+       P29 P30
+       P30 P31
+       P31 P32
+       P32 P33
+       P33 P34
+       P34 P35
+       P35 P36
+       P36 P37
+       P37 P38
+       P38 P39
+       P39 P40
+       P40 P41
+       P41 P42
+       P42 P43
+       P43 P44
+       P44 P45
+       P45 P46
+       P46 P47
+       P47 P48
+       P48 P49
+       P49 P50
+     </beads>
+     </bond>
+     <angle>
+       <name>P-P-PA</name>
+     <beads>
+       P3 P2 PA1
+       P49 P50 PA51
+     </beads>
+     </angle>
+     <angle>
+       <name>P-P-P</name>
+     <beads>
+       P2 P3 P4
+       P3 P4 P5
+       P4 P5 P6
+       P5 P6 P7
+       P6 P7 P8
+       P7 P8 P9
+       P10 P9 P8
+       P11 P10 P9
+       P10 P11 P12
+       P11 P12 P13
+       P12 P13 P14
+       P13 P14 P15
+       P14 P15 P16
+       P15 P16 P17
+       P16 P17 P18
+       P17 P18 P19
+       P18 P19 P20
+       P19 P20 P21
+       P20 P21 P22
+       P21 P22 P23
+       P22 P23 P24
+       P23 P24 P25
+       P24 P25 P26
+       P25 P26 P27
+       P26 P27 P28
+       P27 P28 P29
+       P28 P29 P30
+       P29 P30 P31
+       P30 P31 P32
+       P31 P32 P33
+       P32 P33 P34
+       P33 P34 P35
+       P34 P35 P36
+       P35 P36 P37
+       P36 P37 P38
+       P37 P38 P39
+       P38 P39 P40
+       P39 P40 P41
+       P40 P41 P42
+       P41 P42 P43
+       P42 P43 P44
+       P43 P44 P45
+       P44 P45 P46
+       P45 P46 P47
+       P46 P47 P48
+       P47 P48 P49
+       P48 P49 P50
+     </beads>
+     </angle>
+     <dihedral>
+       <name>P-P-P-PA</name>
+     <beads>
+       P4 P3 P2 PA1
+       P48 P49 P50 PA51
+     </beads>
+     </dihedral>
+     <dihedral>
+       <name>P-P-P-P</name>
+     <beads>
+       P5 P4 P3 P2
+       P6 P5 P4 P3
+       P7 P6 P5 P4
+       P8 P7 P6 P5
+       P9 P8 P7 P6
+       P10 P9 P8 P7
+       P11 P10 P9 P8
+       P12 P11 P10 P9
+       P13 P12 P11 P10
+       P14 P13 P12 P11
+       P15 P14 P13 P12
+       P16 P15 P14 P13
+       P17 P16 P15 P14
+       P18 P17 P16 P15
+       P19 P18 P17 P16
+       P20 P19 P18 P17
+       P21 P20 P19 P18
+       P22 P21 P20 P19
+       P23 P22 P21 P20
+       P24 P23 P22 P21
+       P25 P24 P23 P22
+       P26 P25 P24 P23
+       P27 P26 P25 P24
+       P28 P27 P26 P25
+       P29 P28 P27 P26
+       P30 P29 P28 P27
+       P31 P30 P29 P28
+       P32 P31 P30 P29
+       P33 P32 P31 P30
+       P34 P33 P32 P31
+       P35 P34 P33 P32
+       P36 P35 P34 P33
+       P37 P36 P35 P34
+       P38 P37 P36 P35
+       P39 P38 P37 P36
+       P40 P39 P38 P37
+       P41 P40 P39 P38
+       P42 P41 P40 P39
+       P43 P42 P41 P40
+       P44 P43 P42 P41
+       P45 P44 P43 P42
+       P46 P45 P44 P43
+       P47 P46 P45 P44
+       P48 P47 P46 P45
+       P49 P48 P47 P46
+       P50 P49 P48 P47
+     </beads>
+     </dihedral>
+   </cg_bonded>
+  </topology>
+  <maps>
+    <map>
+      <name>PA</name>
+      <weights>15.035 13.019 15.035 14.027 </weights>
+    </map>
+    <map>
+      <name>P</name>
+      <weights>14.027 13.019 15.035 14.027 </weights>
+    </map>
+  </maps>
+</cg_molecule>

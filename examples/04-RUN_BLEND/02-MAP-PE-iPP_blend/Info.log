@@ -1,0 +1,73 @@
+
+    ***********************************************************************
+                        Prepare CG input files (PCIF)
+              ----------------------------------------------
+
+                                Version 0.1
+
+                              Dr. Javier Ramos
+                      Macromolecular Physics Department
+                Instituto de Estructura de la Materia (IEM-CSIC)
+                               Madrid (Spain)
+
+        PCIF is an open-source python library to quickly  prepare the required
+        files to prepare and perform CG simulations.
+        Currently, only VOTCA is implemented.
+
+        This software is distributed under the terms of the
+        GNU General Public License v3.0 (GNU GPLv3). A copy of
+        the license (LICENSE.txt) is included with this distribution.
+
+    ***********************************************************************
+        
+
+		Command line: 
+			python pyCGMapPol.py -i PE-iPP_CG3.inp
+			         or
+			pyCGMapPol -i PE-iPP_CG3.inp
+
+		Start Job at 07-10-2022 17:14:48 ============
+		 Read input from PE-iPP_CG3.inp
+
+		 Number of molecule/polymer types: 2
+			 Type   0:    name=PECG3    AA_atoms=102      CG_beads=34       Nmols=160   
+			 Type   1:    name=iPPCG3   AA_atoms=154      CG_beads=51       Nmols=160   
+
+		 * Write XML files for mapping AA to CG models:
+			 PECG3.xml has been written.
+			 iPPCG3.xml has been written.
+
+		 * Write CG XML files for VOTCA.
+			 PECG3_CG.xml has been written.
+			 iPPCG3_CG.xml has been written.
+
+		 * Write CG topology file for GROMACS.
+			 topo_CG.top has been written.
+
+		 * Write index file for GROMACS.
+			 index_CG.ndx has been written.
+
+		 * Write CG topology file in PSF format.
+			 topo_CG.psf has been written.
+
+		 * Write map settings XML file for VOTCA.
+			 settings_map.xml has been written.
+
+		 * Write iterative settings XML file for VOTCA.
+			 settings_cg.xml has been written.
+
+		---------------------------------------------------------------------------------------
+		WARNING: These files serve as templates.
+		         Therefore, they need to be revised and adapted to meet your requirements!!!
+		---------------------------------------------------------------------------------------
+
+		-------------------------------------------------------------------------------------
+		TRICK  : To get the coordinates for the CG map after run this program, you should.
+		         executes the following command:
+		         csg_map --top <TPR_FILE_FOR_AA_MODEL> --trj <TRJ_or_GRO_FILE_FOR_AA_MODEL> 
+		                  --cg <XML_MAP_PRODUCED> --out <GRO_FILENAME_FOR_CG> 
+		-------------------------------------------------------------------------------------
+
+		Job  Done at 07-10-2022 17:14:48 ============
+
+		Total time: 0.42 seconds
